@@ -1,5 +1,7 @@
-# Jarvis voice dictation — direct dependencies (pinned to known-good versions).
-# Transitive deps (onnxruntime, ctranslate2, av, tokenizers, ...) resolve automatically.
+# Jarvis voice dictation — direct (top-level) dependencies, pinned.
+# For a fully reproducible install, setup uses requirements.lock.txt, which pins
+# EVERY package (including transitive deps) to exact versions. This file is the
+# human-readable summary of what the project directly depends on.
 faster-whisper==1.2.1
 openwakeword==0.6.0
 sounddevice==0.5.5

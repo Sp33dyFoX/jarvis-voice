@@ -144,4 +144,19 @@ If this tool is useful to you, check it out.
 
 ## License
 
-[MIT](LICENSE) — free to use, modify, and distribute, including commercially.
+This project is licensed under the **[PolyForm Noncommercial License 1.0.0](LICENSE)**.
+
+- ✅ **Free for noncommercial use** — personal projects, research, education, nonprofits.
+- ❌ **Commercial use requires a paid license.** To use Jarvis for any commercial
+  purpose, contact **licensing@milo3d.ai** for a commercial license.
+
+This is *source-available*, not OSI "open source" — commercial use is restricted by design.
+
+## Credits
+
+Built on the work of others: **Whisper** (OpenAI), **faster-whisper** (SYSTRAN),
+**openWakeWord** (David Scripka), **sounddevice**, **pynput**, **NumPy**, and
+**Silero VAD**. Full attribution and licenses are in
+**[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**. These components keep their
+own licenses (MIT, BSD-3-Clause, Apache-2.0, LGPL-3.0); this project's terms apply
+only to its own code.

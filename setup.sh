@@ -21,8 +21,8 @@ python3 -m venv .venv
 echo "[2/4] Upgrading pip..."
 .venv/bin/python -m pip install --upgrade pip --quiet
 
-echo "[3/4] Installing dependencies (this can take a few minutes)..."
-.venv/bin/python -m pip install -r requirements.txt
+echo "[3/4] Installing dependencies (locked versions; this can take a few minutes)..."
+.venv/bin/python -m pip install -r requirements.lock.txt
 
 echo "[4/4] Pre-downloading models (openWakeWord + Whisper base.en)..."
 .venv/bin/python -c "import openwakeword,openwakeword.utils as u; u.download_models(); from faster_whisper import WhisperModel; WhisperModel('base.en',device='cpu',compute_type='int8'); print('models ready')"
