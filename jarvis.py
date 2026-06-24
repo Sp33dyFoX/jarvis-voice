@@ -115,7 +115,8 @@ print(f"Mic: [{DEVICE}] {sd.query_devices(DEVICE)['name']}")
 print(f"Loading openWakeWord + Whisper '{MODEL_NAME}'...")
 oww = Model(wakeword_models=["hey_jarvis"])
 whisper = WhisperModel(MODEL_NAME, device="cpu", compute_type="int8")
-print("\nReady. Say 'Hey Jarvis' and start talking. (Ctrl+C here to quit)\n")
+print("\nReady. Say 'Hey Jarvis' and start talking. (Ctrl+C here to quit)")
+print("built by the maker of milo3d.ai — AI 3D models, images & video\n")
 
 
 def callback(indata, frames, time_info, status):

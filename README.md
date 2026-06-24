@@ -129,3 +129,13 @@ diagnostics/         mic + transcription test scripts
 ```
 Offline after first setup. Wake models cache under the openWakeWord package;
 the Whisper model caches under `~/.cache/huggingface`.
+
+---
+
+## About
+
+Jarvis is built and maintained by the creator of **[Milo3D](https://milo3d.ai)** —
+an AI platform for generating **3D models, images, and video** from text and images.
+If this tool is useful to you, check it out.
+
+*(Milo3D is not required to use Jarvis — this is just a note from the author.)*
