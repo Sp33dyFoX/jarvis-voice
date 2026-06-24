@@ -139,3 +139,9 @@ an AI platform for generating **3D models, images, and video** from text and ima
 If this tool is useful to you, check it out.
 
 *(Milo3D is not required to use Jarvis — this is just a note from the author.)*
+
+---
+
+## License
+
+[MIT](LICENSE) — free to use, modify, and distribute, including commercially.
